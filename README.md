@@ -21,6 +21,9 @@ python network.py
 ```
 
 ### Optional network tuning in ```main```
++ ```interactive```
+  * enables/disables visuals during training
+  * default: True
 + ```learning_rate```
   * default: 0.1
 + ```lmbda```
