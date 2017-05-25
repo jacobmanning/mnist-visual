@@ -9,8 +9,7 @@ Imports raw data from pickle, splits data into training, validation,
 and test sets, creates feedforward neural network, trains net on 
 mnist images, shows network progress while training
 
-![][demo-url]
-[demo-url]: https://github.com/jacobmanning/mnist-visual/blob/master/train-visual.gif?raw=true "Visual during training"
+![](https://github.com/jacobmanning/mnist-visual/blob/master/train-visual.gif?raw=true "Visual during training")
 
 ## Dependencies
 + NumPy
