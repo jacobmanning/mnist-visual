@@ -294,7 +294,7 @@ def main(filename):
     net.sgd(train_data, 30, 10, 0.1, lmbda=10.0,
             eval_data=valid_data, monitor_eval_accuracy=True,
             monitor_eval_cost=True, monitor_train_accuracy=True,
-            monitor_train_cost=True, interactive=False)
+            monitor_train_cost=True, interactive=True)
     # save the network in a json
     net.save(filename)
 
