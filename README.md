@@ -21,7 +21,7 @@ python network.py
 ```
 
 ### Optional network tuning in ```main```
-+ ```learning rate```
++ ```learning_rate```
   * default: 0.1
 + ```lmbda```
   * regularization parameter
@@ -29,7 +29,7 @@ python network.py
 + ```epochs```
   * number of epochs to train
   * default: 30
-+ ```mini batch size```
++ ```mini_batch_size```
   * size of batch to train
   * default: 10
 + network architecture
